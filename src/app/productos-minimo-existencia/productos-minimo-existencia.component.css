@@ -1,0 +1,25 @@
+/* Estilos generales */
+:host {
+    display: block;
+    margin: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos específicos de DevExtreme */
+  .dx-list-devextreme {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .dx-list-devextreme .dx-list-item {
+    padding: 5px;
+  }
+  
+  .dx-list-devextreme .dx-list-item-selected {
+    background-color: #eaeaea;
+  }
+  

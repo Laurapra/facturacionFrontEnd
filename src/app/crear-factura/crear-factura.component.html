@@ -1,0 +1,26 @@
+<h2>Crear Factura</h2>
+
+<form [formGroup]="facturaForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="id_cliente">ID Cliente</label>
+    <input id="id_cliente" type="text" formControlName="id_cliente">
+  </div>
+  <div>
+    <label for="id_producto">ID Producto</label>
+    <input id="id_producto" type="text" formControlName="id_producto">
+  </div>
+  <div>
+    <label for="fecha_factura">Fecha de Factura</label>
+    <input id="fecha_factura" type="date" formControlName="fecha_factura">
+  </div>
+  <div>
+    <label for="cantidad">Cantidad</label>
+    <input id="cantidad" type="number" formControlName="cantidad">
+  </div>
+  <div>
+    <label for="total_factura">Total de la Factura</label>
+    <input id="total_factura" type="number" formControlName="total_factura">
+  </div>
+
+  <button type="submit">Crear Factura</button>
+</form>

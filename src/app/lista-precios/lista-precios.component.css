@@ -1,0 +1,17 @@
+/* lista-precios.component.css */
+
+.dx-list-devextreme {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .dx-list-devextreme li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .dx-list-devextreme li:last-child {
+    border-bottom: none;
+  }
+  

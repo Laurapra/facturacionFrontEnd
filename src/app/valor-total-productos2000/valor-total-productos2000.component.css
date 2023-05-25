@@ -1,0 +1,24 @@
+/* En tu archivo CSS */
+:host {
+  display: block;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.dx-list-devextreme {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.dx-list-item {
+  margin-bottom: 5px;
+}
+
+.dx-list-item:last-child {
+  margin-bottom: 0;
+}
+

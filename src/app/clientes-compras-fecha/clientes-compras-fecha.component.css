@@ -1,0 +1,15 @@
+/* En tu archivo CSS */
+:host {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .dx-list-item {
+    margin-bottom: 10px;
+  }
+  
